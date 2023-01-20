@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background: rgba(34, 42, 54, 0.95);
+    height: 100vh;
+}
+
+/* nav strat */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 120px;
+
+}
+
+nav h1 {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    color: #FFFFFF;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+nav div ul {
+    display: flex;
+}
+
+nav div ul li {
+    list-style: none;
+    margin-right: 20px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.menu button {
+    background: #676CDB;
+    padding: 10px 20px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+    border: none;
+}
+
+
+/* banner-section-strat */
+
+.banner-section {
+    padding: 0 120px;
+
+}
+
+.banner-title {
+    font-weight: 700;
+    font-size: 70px;
+    color: #FFFFFF;
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    width: 40%;
+    margin-bottom: 50px;
+}
+
+.email-btn {
+    padding: 10px 20px;
+    background: #676CDB;
+    font-weight: 400;
+    font-size: 20px;
+    margin-right: 25px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.cv-btn{
+    padding: 10px 20px;
+    border: none;
+    font-weight: 400;
+    font-size: 20px;
+    /* color: #FFFFFF; */
+    color: #676CDB;
+    background: transparent;
+}
+.cv-btn:hover{
+    background: #676CDB;
+    padding: 10px 20px;
+    border: none;
+    color: #FFFFFF;
+}
